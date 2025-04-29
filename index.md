@@ -9,6 +9,8 @@ nav_order: 1
 ## About Me
 Hi! I'm a student at the DU. This site is a simple place to share my work, interests, and progress.
 
+![Profile picture](assets/profile.jpg)
+
 ---
 
 ## Pages
