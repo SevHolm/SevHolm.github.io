@@ -8,7 +8,7 @@ nav_order: 3
 
 Use this page to track project milestones and submissions.
 
-## 🔧 Project 1: Personal Website
+## Project 1: Personal Website
 
 - **Due**: May 20, 2025  
 - **Goals**: Customize your personal student profile, including resume and classwork.
@@ -19,7 +19,7 @@ Use this page to track project milestones and submissions.
 
 ---
 
-## 🔧 Project 2: Final Portfolio
+## Project 2: Final Portfolio
 
 - **Due**: June 10, 2025  
 - **Description**: Compile all work into a portfolio site.
