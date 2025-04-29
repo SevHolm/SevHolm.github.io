@@ -14,13 +14,13 @@ nav_order: 2
 
 Project  Name/Description
 
-- 📁 [View Source on GitHub](https://github.com/yourname/project-name)
-- 🧠 Technologies: 
-- 🛠️ Features: 
+- [View Source on GitHub](https://github.com/yourname/project-name)
+- Technologies: 
+- Features: 
 
 
 Project Name/Description
 
-- 📁 [View Source on GitHub](https://github.com/yourname/project-name)
-- 🧠 Technologies: 
-- 🛠️ Features: 
+- [View Source on GitHub](https://github.com/yourname/project-name)
+- Technologies: 
+- Features: 
