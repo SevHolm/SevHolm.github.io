@@ -8,7 +8,7 @@ nav_order: 3
 
 _(You can either type your resume here or link a PDF.)_
 
-[Download My Resume (PDF)](assets/resume.pdf)
+[Download My Resume (PDF)](assets/pdfs/Resume-Sample.pdf)
 
 ## Education
 - Bachelor of [Your Major], University of Denver
@@ -22,3 +22,4 @@ _(You can either type your resume here or link a PDF.)_
 - **Job Title** - Company
   - Responsibility 1
   - Responsibility 2
+
