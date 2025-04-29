@@ -11,9 +11,10 @@ This short guide helps you publish a site and write in Markdown!
 
 ## Set up GitHub Pages
 
-1. Go to your repository on GitHub.
-2. Click **Settings > Pages**.
-3. Under “Build and deployment,” choose:
+1. Go to [this](https://github.com/SevHolm/SevHolm.github.io) repository on GitHub.
+2. Click **Use this template** in the top right, and select **Create new repository**
+3. Choose yourself as an owner and name the repository "yourname.github.io" (use your name). 
+4. Under “Build and deployment,” choose:
    - **Source**: GitHub Actions
    - **Branch**: `main`
 4. Commit your changes and visit the provided URL.
