@@ -12,7 +12,7 @@ Here you can list out assignments for the course. Add due dates, instructions, o
 
 - **Due**: May 5, 2025  
 - **Description**: Create a sample markdown document using headings, lists, and links.  
-- [Example Template](../assets/markdown-sample.md)
+- [Example Template](markdown-sample.md)
 
 ---
 
