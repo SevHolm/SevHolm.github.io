@@ -1,3 +1,8 @@
+---
+title: Markdown Sample
+nav_exclude: true
+---
+
 An h1 header
 ============
 
