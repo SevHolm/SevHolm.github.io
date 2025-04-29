@@ -11,4 +11,16 @@ nav_order: 2
 - **Project Name 2**: Short description.
 
 ## Past Projects
-- **Project Name 3**: Short description.
+
+Project  Name/Description
+
+- 📁 [View Source on GitHub](https://github.com/yourname/project-name)
+- 🧠 Technologies: 
+- 🛠️ Features: 
+
+
+Project Name/Description
+
+- 📁 [View Source on GitHub](https://github.com/yourname/project-name)
+- 🧠 Technologies: 
+- 🛠️ Features: 
