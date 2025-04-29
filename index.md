@@ -18,4 +18,5 @@ Hi! I'm a student at the DU. This site is a simple place to share my work, inter
 - [Projects](projects.md)
 - [Resume](resume.md)
 - [Classwork](classwork.md)
+- [Acheivements](acheivements.md)
 - [Contact](contact.md)
