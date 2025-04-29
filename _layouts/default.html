@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body data-theme="light">
+    <main>
+      {{ content }}
+    </main>
+
+    <button onclick="toggleDarkMode()" style="position: fixed; top: 1rem; right: 1rem;">🌓</button>
+
+    <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+    <script>
+        function toggleDarkMode() {
+          const currentTheme = document.body.dataset.theme;
+          const newTheme = currentTheme === "dark" ? "light" : "dark";
+          document.body.dataset.theme = newTheme;
+          localStorage.setItem("theme", newTheme);
+        }
+        </script>
+  </body>
+</html>
