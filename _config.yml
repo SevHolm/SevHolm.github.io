@@ -20,3 +20,7 @@ plugins:
   - jekyll-feed
 exclude:
   - rss/*
+
+include:
+  - rss/index.html
+  - rss/_feeds.json
