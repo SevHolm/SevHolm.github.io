@@ -16,3 +16,5 @@ _{{ post.date | date: "%B %d, %Y" }}_
 {% endfor %}
 
 [RSS Feed](/feed.xml)
+
+[View the Aggregated RSS Feed](/rss/)

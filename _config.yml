@@ -18,3 +18,5 @@ nav_sort: case_sensitive
 math: true
 plugins:
   - jekyll-feed
+exclude:
+  - rss/*
