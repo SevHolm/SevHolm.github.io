@@ -16,3 +16,5 @@ logo: ""
 color_scheme: light
 nav_sort: case_sensitive
 math: true
+plugins:
+  - jekyll-feed
