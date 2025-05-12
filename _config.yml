@@ -22,4 +22,9 @@ nav:
   - resume.md
   - achievements.md
   - contact.md
-  - Blog Feed: rss/index.html
+  - Blog Feed: assets/rss/index.html
+
+collections:
+  rss:
+    output: true
+    nav_exclude: true
