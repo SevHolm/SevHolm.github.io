@@ -16,15 +16,3 @@ logo: ""
 color_scheme: light
 nav_sort: case_sensitive
 math: true
-nav:
-  - index.md
-  - projects.md
-  - resume.md
-  - achievements.md
-  - contact.md
-  - Blog Feed: assets/rss/index.html
-
-collections:
-  rss:
-    output: true
-    nav_exclude: true
