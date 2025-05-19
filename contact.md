@@ -6,10 +6,20 @@ nav_order: 5
 
 # Contact Me
 
-<form action="https://formspree.io/f/yourformid" method="POST">
-  <label>Your email:</label><br>
-  <input type="email" name="email"><br>
-  <label>Your message:</label><br>
-  <textarea name="message"></textarea><br>
+Fill out this form to reach me!
+
+<form action="https://formspree.io/f/xpwdnlrw" method="POST">
+  <label>
+    Your name:
+    <input type="text" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Message:
+    <textarea name="message"></textarea>
+  </label>
   <button type="submit">Send</button>
 </form>
