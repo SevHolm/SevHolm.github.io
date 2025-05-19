@@ -52,7 +52,7 @@ The last part (after `/f/`) is your Form ID
 1. Open the file `contact.md` in your GitHub repository  
 2. Replace the existing form or section with the following code:  
 
- 
+ <!--
 <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
 <label for="name">Name:</label><br>
 <input type="text" name="name" id="name" required><br><br>
@@ -65,7 +65,7 @@ The last part (after `/f/`) is your Form ID
 
 <button type="submit">Send</button>
 </form>
-
+-->
 ### Step 4: Verify and Test
 
 1. After someone submits your form for the first time, Formspree will send you an email asking you to verify your email address
