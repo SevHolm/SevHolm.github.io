@@ -4,9 +4,18 @@
 This is a simple GitHub Pages site using the Just the Docs theme, made for students to create a personal profile.
 
 ## How to Use
-1. Edit the `index.md`, `projects.md`, `resume.md`, and `classwork.md` files.
-2. Push changes to GitHub.
-3. Enable GitHub Pages in your repository settings.
+
+## Set up GitHub Pages
+
+1. Go to [this](https://github.com/SevHolm/SevHolm.github.io) repository on GitHub.
+2. Click **Use this template** in the top right, and select **Create new repository**
+3. Choose yourself as an owner and name the repository "yourname.github.io" (use your name). 
+4. Under “Build and deployment,” choose:
+   - **Source**: GitHub Actions
+   - **Branch**: `main`
+4. Commit your changes and visit the provided URL.
+
+---
 
 Your live website will be available at `https://yourusername.github.io/your-repo-name/`.
 
