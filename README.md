@@ -50,10 +50,17 @@ The last part (after `/f/`) is your Form ID
 ### Step 3: Add the Form to Your Site
 
 1. Open the file `contact.md` in your GitHub repository  
-2. Replace the existing form or section with the following code:  
+2. Replace the existing form or section with the code below
+3. Make sure you replace the "YOUR_FORM_ID" in the url with your form id, and YOUR_USERNAME_HERE with your github username
 
- <!--
+ <!-- copy the code below 
+
+
+
 <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
+  <input type="text" name="_gotcha" style="display: none;">
+  <input type="hidden" name="_redirect" value="https://YOUR_USERNAME_HERE.github.io/thank-you.html">
+
   <label for="name">Your name:</label><br>
   <input type="text" name="name" id="name" required><br><br>
 
@@ -65,7 +72,10 @@ The last part (after `/f/`) is your Form ID
 
   <button type="submit">Send</button>
 </form>
--->
+
+
+
+ -->
 ### Step 4: Verify and Test
 
 1. After someone submits your form for the first time, Formspree will send you an email asking you to verify your email address
