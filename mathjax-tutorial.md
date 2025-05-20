@@ -8,8 +8,6 @@ nav_order: 10
 This page demonstrates how to write and render mathematical expressions on your site using [MathJax](https://www.mathjax.org/). MathJax allows you to write math using LaTeX-style syntax directly in your Markdown files.
 
 ## Notes
-
-- Always ensure the front matter of the page includes `use_math: true` to enable MathJax.
 - MathJax can handle complex LaTeX equations, but some LaTeX packages are not supported.
 
 ## Inline Math
