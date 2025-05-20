@@ -2,6 +2,7 @@
 title: Assignments
 parent: Example Class (COMP 1951)
 nav_order: 2
+use_math: true
 ---
 
 # Assignments

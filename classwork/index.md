@@ -3,6 +3,7 @@ title: Classwork
 nav_order: 6  # adjust order in sidebar
 has_children: true
 permalink: /classwork/
+use_math: true
 ---
 
 # Classwork

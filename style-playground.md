@@ -1,6 +1,7 @@
 ---
 title: Style Playground
 nav_order: 99
+use_math: true
 ---
 
 # Style Playground

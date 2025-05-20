@@ -2,6 +2,7 @@
 title: Projects
 parent: Example Class (COMP 1951)
 nav_order: 3
+use_math: true
 ---
 
 # Projects

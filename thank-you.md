@@ -2,6 +2,7 @@
 title: Thank You
 permalink: /thank-you.html
 nav_exclude: true
+use_math: true
 ---
 
 # Thank you!
