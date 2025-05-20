@@ -1,7 +1,6 @@
 ---
 title: "MathJax Tutorial"
 nav_order: 10
-use_math: true
 ---
 
 # MathJax Tutorial

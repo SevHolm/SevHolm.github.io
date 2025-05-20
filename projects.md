@@ -2,7 +2,6 @@
 layout: default
 title: Projects
 nav_order: 2
-use_math: true
 ---
 
 # Projects

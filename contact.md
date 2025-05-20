@@ -2,7 +2,6 @@
 layout: default
 title: Contact
 nav_order: 5
-use_math: true
 ---
 
 # Contact Me

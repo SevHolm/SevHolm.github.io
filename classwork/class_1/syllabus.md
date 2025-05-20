@@ -2,7 +2,6 @@
 title: Syllabus
 parent: Example Class (COMP 1951)
 nav_order: 4
-use_math: true
 ---
 
 

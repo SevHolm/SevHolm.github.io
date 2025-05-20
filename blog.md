@@ -2,7 +2,6 @@
 layout: default
 title: Blog
 nav_order: 6
-use_math: true
 ---
 
 # Blog

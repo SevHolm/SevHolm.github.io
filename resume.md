@@ -2,7 +2,6 @@
 layout: default
 title: Resume
 nav_order: 3
-use_math: true
 ---
 
 # Resume

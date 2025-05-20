@@ -3,7 +3,6 @@ title: Example Class 3
 parent: Classwork
 nav_order: 3
 has_children: true
-use_math: true
 ---
 
 # Example Class 3

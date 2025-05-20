@@ -1,7 +1,7 @@
 ---
 title: contra
 nav_order: 11
-use_math: true
+
 ---
 
 

@@ -2,7 +2,6 @@
 layout: default
 title: Achievements
 nav_order: 4
-use_math: true
 ---
 
 # Certifications & Awards
