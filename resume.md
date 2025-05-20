@@ -23,3 +23,5 @@ _(You can either type your resume here or link a PDF.)_
   - Responsibility 1
   - Responsibility 2
 
+
+<a href="/" class="btn">Return to Home</a>

@@ -18,3 +18,6 @@ _{{ post.date | date: "%B %d, %Y" }}_
 [RSS Feed](/feed.xml)
 
 [View the Aggregated RSS Feed](/rss/)
+
+
+<a href="/" class="btn">Return to Home</a>

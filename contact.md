@@ -23,3 +23,6 @@ Fill out this form to reach me!
 
   <button type="submit">Send</button>
 </form>
+
+
+<a href="/" class="btn">Return to Home</a>
