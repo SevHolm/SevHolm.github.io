@@ -14,6 +14,7 @@ title: "Student Profile"
 remote_theme: just-the-docs/just-the-docs
 logo: ""
 color_scheme: light
+color_scheme_toggle: true
 nav_sort: case_sensitive
 math: true
 plugins:
@@ -24,3 +25,8 @@ exclude:
 include:
   - rss/index.html
   - rss/_feeds.json
+
+sass:
+  style: compressed
+  custom_css:
+    - assets/css/custom.css
