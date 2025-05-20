@@ -10,7 +10,7 @@ Fill out this form to reach me!
 
 <form action="https://formspree.io/f/xpwdnlrw" method="POST">
   <input type="text" name="_gotcha" style="display: none;">
-  <input type="hidden" name="_redirect" value="https://sevholm.github.io/thank-you.html">
+  <input type="hidden" name="_redirect" value="https://sevholm.github.io/thank-you.md">
 
   <label for="name">Your name:</label><br>
   <input type="text" name="name" id="name" required><br><br>

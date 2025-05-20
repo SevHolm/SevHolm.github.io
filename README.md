@@ -59,7 +59,7 @@ The last part (after `/f/`) is your Form ID
 
 <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
   <input type="text" name="_gotcha" style="display: none;">
-  <input type="hidden" name="_redirect" value="https://YOUR_USERNAME_HERE.github.io/thank-you.html">
+  <input type="hidden" name="_redirect" value="https://YOUR_USERNAME_HERE.github.io/thank-you.md">
 
   <label for="name">Your name:</label><br>
   <input type="text" name="name" id="name" required><br><br>
