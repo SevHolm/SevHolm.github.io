@@ -1,6 +1,7 @@
 ---
 title: GitHub Pages & Markdown
 nav_order: 7
+use_math: true
 ---
 
 # GitHub Pages + Markdown Quickstart
