@@ -18,8 +18,8 @@ color_scheme_toggle: true
 nav_sort: case_sensitive
 math: true
 
-#plugins:
-#  - jekyll-feed
+plugins:
+  - jekyll-feed
 exclude:
   - rss/*
 
