@@ -175,7 +175,7 @@ Here's a "line block":
 
 and images can be specified like so:
 
-![example image](assets/images/DSC_7277.jpg "Interior of a clocktower")
+![example image](../assets/images/DSC_7277.jpg "Interior of a clocktower")
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
