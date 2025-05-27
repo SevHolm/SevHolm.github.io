@@ -1,0 +1,53 @@
+site_name: Sev Holm
+site_url: https://sevholm.github.io
+site_author: Sev Holm
+site_description: Personal portfolio and projects
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - About: achievements.md
+  - Resume: resume.md
+  - Projects: projects.md
+  - Blog: blog.md
+  - MathJax Tutorial: mathjax-tutorial.md
+  - GitHub Markdown: github-markdown.md
+  - Contact: contact.md
+  - Thank You: thank-you.md
+  - Contraposition Proof: contraposition proof copy (1).md
+  - Classwork:
+      - Classwork Index: classwork/index.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+plugins:
+  - search
