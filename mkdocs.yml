@@ -36,10 +36,13 @@ nav:
   - MathJax Tutorial: mathjax-tutorial.md
   - GitHub Markdown: github-markdown.md
   - Contact: contact.md
-  - Thank You: thank-you.md
   - Contraposition Proof: contraposition proof copy (1).md
   - Classwork:
-      - Classwork Index: classwork/index.md
+    - Overview: classwork/index.md
+    - Class 1: classwork/class_1/index.md
+    - Class 2: classwork/class_2/index.md
+    - Class 3: classwork/class_3/index.md
+    - Class 4: classwork/class_4/index.md
 
 markdown_extensions:
   - admonition
