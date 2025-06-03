@@ -56,4 +56,4 @@ plugins:
   - search
 
 extra_css:
-  - assets/css/extra.css
+  - docs/assets/css/extra.css
