@@ -9,7 +9,7 @@ nav_order: 1
 ## About Me
 Hi! I'm a student at the DU. This site is a simple place to share my work, interests, and progress.
 
-![Test](https://sevholm.github.io/assets/images/DU-logo.jpg)
+![Profile Picture](assets/images/DU-logo.jpg)
 
 ---
 
