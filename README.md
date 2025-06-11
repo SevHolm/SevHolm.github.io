@@ -29,6 +29,10 @@ If you get a "Permission denied" error, run:
 ```bash
 chmod +x deploy.sh
 ```
+Now navigate to the "Settings" tab, click on "Pages" and under “Build and deployment,” choose:
+   - **Source**: GitHub Actions
+   - **Branch**: `gh-pages`
+Commit your changes and visit the provided URL.
 ---
 
 Your live website will be available at `https://yourusername.github.io/your-repo-name/`.
