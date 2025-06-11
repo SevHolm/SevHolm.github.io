@@ -15,6 +15,20 @@ This is a simple GitHub Pages site using the Just the Docs theme, made for stude
    - **Branch**: `gh-pages`
 4. Commit your changes and visit the provided URL.
 
+##  Deploying your site
+
+Run this the first time (in Codespaces or locally):
+
+```bash
+pip install -r requirements.txt
+./deploy.sh
+```
+
+If you get a "Permission denied" error, run:
+
+```bash
+chmod +x deploy.sh
+```
 ---
 
 Your live website will be available at `https://yourusername.github.io/your-repo-name/`.

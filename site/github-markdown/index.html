@@ -52,6 +52,8 @@
       
     
     
+      <link rel="stylesheet" href="../docs/assets/css/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -633,6 +635,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#deploying-your-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Deploying your site
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#markdown-basics" class="md-nav__link">
     <span class="md-ellipsis">
       Markdown Basics
@@ -880,11 +891,21 @@
 <li>Go to <a href="https://github.com/SevHolm/SevHolm.github.io">this</a> repository on GitHub.</li>
 <li>Click <strong>Use this template</strong> in the top right, and select <strong>Create new repository</strong></li>
 <li>Choose yourself as an owner and name the repository "yourname.github.io" (use your name). </li>
-<li>Under “Build and deployment,” choose:</li>
+<li>Navigate to the "Settings" tab, click on "Pages" and under “Build and deployment,” choose:</li>
 <li><strong>Source</strong>: GitHub Actions</li>
-<li><strong>Branch</strong>: <code>main</code></li>
+<li><strong>Branch</strong>: <code>gh-pages</code></li>
 <li>Commit your changes and visit the provided URL.</li>
 </ol>
+<h2 id="deploying-your-site">🚀 Deploying your site<a class="headerlink" href="#deploying-your-site" title="Permanent link">&para;</a></h2>
+<p>Run this the first time (in Codespaces or locally):</p>
+<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+./deploy.sh
+</code></pre></div>
+
+<p>If you get a "Permission denied" error, run:</p>
+<div class="codehilite"><pre><span></span><code>chmod<span class="w"> </span>+x<span class="w"> </span>deploy.sh
+</code></pre></div>
+
 <hr />
 <h2 id="markdown-basics">Markdown Basics<a class="headerlink" href="#markdown-basics" title="Permanent link">&para;</a></h2>
 <p><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a></p>
@@ -930,7 +951,7 @@ indenting the block, you can use delimited blocks, if you like:</p>
 
 <p>(which makes copying &amp; pasting easier). You can optionally mark the
 delimited block for Pandoc to syntax highlight it:</p>
-<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
 <span class="c1"># Quick, count to ten!</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
     <span class="c1"># (but not *too* quick)</span>
@@ -969,7 +990,7 @@ delimited block for Pandoc to syntax highlight it:</p>
 </ol>
 <p>Notice again how text always lines up on 4-space indents (including
 that last line which continues item 3 above).</p>
-<p>Here's a link to <a href="http://du.edu">a website</a>, to a <a href="assets/pdfs/Resume-Sample.pdf">local
+<p>Here's a link to <a href="http://du.edu">a website</a>, to a <a href="../assets/pdfs/Resume-Sample.pdf">local
 doc</a>, and to a <a href="#an-h2-header">section heading in the current
 doc</a>. Here's a footnote <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>.</p>
 <p>Tables can look like this:</p>

@@ -19,6 +19,19 @@ This short guide helps you publish a site and write in Markdown!
    - **Branch**: `gh-pages`
 4. Commit your changes and visit the provided URL.
 
+## 🚀 Deploying your site
+
+Run this the first time (in Codespaces or locally):
+
+```bash
+pip install -r requirements.txt
+./deploy.sh
+```
+If you get a "Permission denied" error, run:
+
+```bash
+chmod +x deploy.sh
+```
 ---
 
 ## Markdown Basics
