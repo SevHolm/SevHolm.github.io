@@ -12,7 +12,7 @@ This is a simple GitHub Pages site using the Just the Docs theme, made for stude
 3. Choose yourself as an owner and name the repository "yourname.github.io" (use your name). 
 4. Navigate to the "Settings" tab, click on "Pages" and under “Build and deployment,” choose:
    - **Source**: GitHub Actions
-   - **Branch**: `main`
+   - **Branch**: `gh-pages`
 4. Commit your changes and visit the provided URL.
 
 ---
