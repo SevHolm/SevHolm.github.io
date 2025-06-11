@@ -16,12 +16,12 @@ This short guide helps you publish a site and write in Markdown!
 3. Choose yourself as an owner and name the repository "yourname.github.io" (use your name). 
 4. Navigate to the "Settings" tab, click on "Pages" and under “Build and deployment,” choose:
    - **Source**: GitHub Actions
-   - **Branch**: `gh-pages`
+   - **Branch**: `main`
 4. Commit your changes and visit the provided URL.
 
 ## 🚀 Deploying your site
-
-Run this the first time (in Codespaces or locally):
+Naviagte to codespaces and open a codespace for your newly created repository
+Run this the first time:
 
 ```bash
 pip install -r requirements.txt
