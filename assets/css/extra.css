@@ -1,0 +1,74 @@
+/* === Typography Enhancements === */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+
+code, pre {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+}
+
+/* === Custom Link Styles === */
+a {
+  color: #7c4dff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Page Layout Tweaks === */
+.md-main {
+  max-width: 90%;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+
+/* === Admonition Customization === */
+.md-typeset .admonition {
+  border-left: 4px solid #7c4dff;
+  background-color: #f8f6ff;
+}
+.md-typeset .admonition-title {
+  color: #512da8;
+}
+
+/* === Custom Navigation Header === */
+.md-header {
+  background-color: #311b92;
+  color: white;
+}
+
+/* === Footer Tweaks === */
+.md-footer {
+  background-color: #1a237e;
+  color: white;
+}
+.md-footer a {
+  color: #ffab40;
+}
+
+/* === Make Tables More Stylish === */
+.md-typeset table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.md-typeset table th,
+.md-typeset table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.md-typeset table th {
+  background-color: #ede7f6;
+}
+
+/* === Responsive Font Scaling === */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+  code {
+    font-size: 0.85rem;
+  }
+}
